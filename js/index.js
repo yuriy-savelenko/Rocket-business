@@ -58,8 +58,6 @@ fetch(`https://api.skilla.ru/mango/getList`, {
     })
     .then((data) => dataFromAPi.push(data))
     .catch(() => alert("Сервер не отвечает, пока что слайдер будет недоступен =_( "))
-console.log(dataFromAPi)
-
 
 arrowLeft.addEventListener('click', () => {
     if (+numberSlide.textContent === 1) {
