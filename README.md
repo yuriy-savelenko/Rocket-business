@@ -1,2 +1,2 @@
 # Rocket-business
-layout for rocket businnes team  
+layout for rocket businnes team, adaptive
